@@ -5,7 +5,7 @@ class DataGenerator(object):
     @staticmethod
     def loadJson():
         with open("source-data.json") as json_file:
-            return json.load(json_file)
+            return json.load(json_file).get('data')
 
     @staticmethod
     def convertItem(raw_data_item):
@@ -38,5 +38,4 @@ class DataGenerator(object):
                 'price_paid': raw_data_item[10],
                 'titles': ['TEST_' + raw_data_item[0]]
             }
-
         }

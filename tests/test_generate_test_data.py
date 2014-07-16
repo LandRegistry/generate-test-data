@@ -4,12 +4,9 @@ from data_generator import DataGenerator
 
 class GenerateTestDataTestCase(unittest.TestCase):
     def setUp(self):
-        raw_data = DataGenerator.loadJson()
-        self.columns = raw_data.get('cols')
-        self.data = raw_data.get('data')
+        self.data = DataGenerator.loadJson()
 
     def test_can_parse_raw_data(self):
-        self.assertFalse(self.columns is None)
         self.assertFalse(self.data is None)
 
     def test_can_convert_single_item(self):
@@ -65,9 +62,9 @@ class GenerateTestDataTestCase(unittest.TestCase):
 
     def test_can_convert_all_data(self):
         raw_data_and_titles = zip(self.data, map(DataGenerator.convertItem, self.data))
+        converted = map(lambda tuple: self._check_title_structure(tuple[1], tuple[0][0]), raw_data_and_titles)
 
-        map(lambda tuple: self._check_title_structure(tuple[1], tuple[0][0]), raw_data_and_titles)
-
+        self.assertTrue(len(converted) == len(raw_data_and_titles))
 
     # ----------- Private helper methods -----------------
 
