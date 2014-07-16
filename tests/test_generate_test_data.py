@@ -51,7 +51,8 @@ class GenerateTestDataTestCase(unittest.TestCase):
                     'postcode': raw_data_item[5],
                 },
 
-                'tenure': raw_data_item[8]
+                'tenure': raw_data_item[8],
+                'class_of_title': raw_data_item[9]
             },
 
             'payment': {
@@ -61,6 +62,12 @@ class GenerateTestDataTestCase(unittest.TestCase):
         }
 
         self.assertEqual(expected_title, title)
+
+    def test_can_convert_all_data(self):
+        raw_data_and_titles = zip(self.data, map(DataGenerator.convertItem, self.data))
+
+        map(lambda tuple: self._check_title_structure(tuple[1], tuple[0][0]), raw_data_and_titles)
+
 
     # ----------- Private helper methods -----------------
 
@@ -93,13 +100,22 @@ class GenerateTestDataTestCase(unittest.TestCase):
     def _check_tenure_structure(self, tenure):
         self.assertTrue(tenure is not None)
 
-        self.assertTrue(tenure is 'freehold' or tenure is 'leasehold')
+        self.assertTrue(tenure == 'freehold' or tenure == 'leasehold')
+
+    def _check_class_of_title_structure(self, class_of_title):
+        self.assertTrue(class_of_title is not None)
+
+        self.assertTrue(class_of_title == 'absolute' or
+                        class_of_title == 'good' or
+                        class_of_title == 'qualified' or
+                        class_of_title == 'possesory')
 
     def _check_property_structure(self, property):
         self.assertTrue(property is not None)
 
         self._check_address_structure(property.get('address'))
         self._check_tenure_structure(property.get('tenure'))
+        self._check_class_of_title_structure(property.get('class_of_title'))
 
     def _check_proprietors_structure(self, proprietors):
         self.assertTrue(len(proprietors) is 2)

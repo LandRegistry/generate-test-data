@@ -30,7 +30,8 @@ class DataGenerator(object):
                     'postcode': raw_data_item[5],
                 },
 
-                'tenure': raw_data_item[8]
+                'tenure': raw_data_item[8],
+                'class_of_title': raw_data_item[9],
             },
 
             'payment': {
