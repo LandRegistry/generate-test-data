@@ -1,7 +1,7 @@
 
 {
 	"cols": [
-		"title_id",
+		"title_number",
 		"property_address",
 		"property_city",
 		"property_postcode",
