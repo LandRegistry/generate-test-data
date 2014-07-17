@@ -53,7 +53,7 @@ The current data schema for a title is as follows, with an example title:
                 },
 
                 'tenure': "freehold|leasehold",
-                'class_of_title': "absolute|good|qualified|possesory",
+                'class_of_title': "absolute|good|qualified|possesory"
             },
 
             'payment': {
