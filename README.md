@@ -46,9 +46,10 @@ The current data schema for a title is as follows, with an example title:
 
             'property' : {
                 'address': {
-                    'line_1': "line 1",
-                    'line_2': "line 2",
-                    'postcode': "<a postcode>",
+                    'house_number': "house number",
+                    'road': "road",
+                    'town': "town",
+                    'postcode': "<a postcode>"
                 },
 
                 'tenure': "freehold|leasehold",
@@ -57,7 +58,7 @@ The current data schema for a title is as follows, with an example title:
 
             'payment': {
                 'price_paid': "12345",
-                'titles': ["TEST_AB1234567]"
+                'titles': ["TEST_AB1234567"]
             }
         }
 </pre>
