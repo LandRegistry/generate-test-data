@@ -1,1 +1,1 @@
-./dev/run-command python loader.py
+./dev/run-command python loader.py $@

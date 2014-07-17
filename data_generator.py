@@ -10,7 +10,7 @@ class DataGenerator(object):
     @staticmethod
     def convertItem(raw_data_item):
         return {
-            'title_id': 'TEST_' + raw_data_item[0],
+            'title_number': 'TEST_' + raw_data_item[0],
 
             'proprietors': [
                 {

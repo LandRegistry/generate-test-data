@@ -25,6 +25,10 @@ Then load the data
 
 This should load the test data into the mint
 
+To load only a certain number of titles, specify a command-line argument indicating the quantity, e.g.:
+
+    ./load_test_data_into_dev_environment.sh 1
+
 ### Data schema
 
 The current data schema for a title is as follows, with an example title:

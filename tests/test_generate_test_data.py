@@ -28,7 +28,7 @@ class GenerateTestDataTestCase(unittest.TestCase):
         self._check_title_structure(title, raw_data_item[0])
 
         expected_title = {
-            'title_id': 'TEST_' + raw_data_item[0],
+            'title_number': 'TEST_' + raw_data_item[0],
 
             'proprietors': [
                 {
@@ -68,15 +68,15 @@ class GenerateTestDataTestCase(unittest.TestCase):
 
     # ----------- Private helper methods -----------------
 
-    def _check_title_structure(self, title, original_title_id):
-        title_id = title.get('title_id')
-        self.assertEqual('TEST_' + original_title_id, title_id)
+    def _check_title_structure(self, title, original_title_number):
+        title_number = title.get('title_number')
+        self.assertEqual('TEST_' + original_title_number, title_number)
 
         self._check_proprietors_structure(title.get('proprietors'))
         self._check_property_structure(title.get('property'))
-        self._check_payment_structure(title.get('payment'), title_id)
+        self._check_payment_structure(title.get('payment'), title_number)
 
-    def _check_payment_structure(self, payment, title_id):
+    def _check_payment_structure(self, payment, title_number):
         self.assertTrue(payment is not None)
 
         price_paid = payment.get('price_paid')
@@ -85,7 +85,7 @@ class GenerateTestDataTestCase(unittest.TestCase):
 
         titles = payment.get('titles')
         self.assertTrue(len(titles) is 1)
-        self.assertTrue(titles[0] == title_id)
+        self.assertTrue(titles[0] == title_number)
 
     def _check_address_structure(self, address):
         self.assertTrue(address is not None)
