@@ -35,7 +35,7 @@ The current data schema for a title is as follows, with an example title:
 
 <pre>
 	{
-            'title_id': "TEST_AB1234567",
+            'title_number': "TEST_AB1234567",
 
             'proprietors': [
                 {
