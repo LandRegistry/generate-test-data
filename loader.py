@@ -4,11 +4,17 @@ import requests
 import sys
 
 def loadTitle(title):
-    print "Loading title: " + title.get('title_number')
 
     headers = { "Content-Type" : "application/json"}
     # I'm hardcoding the mint URL for the dev environment here for the moment.
-    requests.post("http://localhost:8001/titles", data=json.dumps(title), headers=headers)
+    try:
+        title_url =  "http://localhost:8001/titles/%s" % title.get('title_number')
+        print "Loading %s" % title_url
+        res = requests.post(title_url, data=json.dumps(title), headers=headers)
+        print "Response status code %s" % res.status_code
+    except requests.exceptions.RequestException as e:
+        print "Error %s" % e
+        raise RuntimeError
 
 
 if __name__ == '__main__':
@@ -26,4 +32,4 @@ if __name__ == '__main__':
     titles = map(DataGenerator.convertItem, raw_data)
     map(loadTitle, titles)
     print "Done loading", len(titles), "titles"
-    
+
