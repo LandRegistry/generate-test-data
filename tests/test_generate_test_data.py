@@ -12,7 +12,8 @@ class GenerateTestDataTestCase(unittest.TestCase):
     def test_can_convert_single_item(self):
         raw_data_item = [
             "SM7333269",
-            "376-8006 Enim. Road",
+            "376-8006",
+            "Enim. Road",
             "Raurkela Civil Township",
             "L95 4ZD",
             "Denise",
@@ -32,28 +33,29 @@ class GenerateTestDataTestCase(unittest.TestCase):
 
             'proprietors': [
                 {
-                    'first_name': raw_data_item[4],
-                    'last_name': raw_data_item[5]
+                    'first_name': raw_data_item[5],
+                    'last_name': raw_data_item[6]
                 },
                 {
-                    'first_name': raw_data_item[6],
-                    'last_name': raw_data_item[7]
+                    'first_name': raw_data_item[7],
+                    'last_name': raw_data_item[8]
                 }
             ],
 
             'property': {
                 'address': {
-                    'line_1': raw_data_item[3],
-                    'line_2': raw_data_item[4],
-                    'postcode': raw_data_item[5],
+                         'house_number': raw_data_item[1],
+                        'road': raw_data_item[2],
+                        'town': raw_data_item[3],
+                        'postcode' : raw_data_item[4]
                 },
 
-                'tenure': raw_data_item[8],
-                'class_of_title': raw_data_item[9]
+                'tenure': raw_data_item[9],
+                'class_of_title': raw_data_item[10]
             },
 
             'payment': {
-                'price_paid': raw_data_item[10],
+                'price_paid': raw_data_item[11],
                 'titles': ['TEST_' + raw_data_item[0]]
             }
         }
@@ -90,8 +92,9 @@ class GenerateTestDataTestCase(unittest.TestCase):
     def _check_address_structure(self, address):
         self.assertTrue(address is not None)
 
-        self.assertTrue(address.get('line_1') is not None)
-        self.assertTrue(address.get('line_2') is not None)
+        self.assertTrue(address.get('house_number') is not None)
+        self.assertTrue(address.get('road') is not None)
+        self.assertTrue(address.get('town') is not None)
         self.assertTrue(address.get('postcode') is not None)
 
     def _check_tenure_structure(self, tenure):
