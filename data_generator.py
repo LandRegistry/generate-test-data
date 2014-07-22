@@ -4,12 +4,12 @@ import json
 
 class DataGenerator(object):
     @staticmethod
-    def loadJson():
+    def load_json():
         with open("source-data.json") as json_file:
             return json.load(json_file).get('data')
 
     @staticmethod
-    def convertItem(raw_data_item):
+    def convert_item(raw_data_item):
         try:
             return {
                 'title_number': 'TEST_' + raw_data_item[0],

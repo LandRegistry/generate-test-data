@@ -3,7 +3,7 @@ import json
 import requests
 import sys
 
-def loadTitle(title):
+def load_title(title):
 
     headers = { "Content-Type" : "application/json"}
     # I'm hardcoding the mint URL for the dev environment here for the moment.
@@ -22,14 +22,14 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         quantity = sys.argv[1]
 
-    raw_data = DataGenerator.loadJson()
+    raw_data = DataGenerator.load_json()
     if quantity.isdigit():
         n = int(quantity)
         if n <= len(raw_data):
             raw_data = raw_data[:n]
 
     print "Loading", len(raw_data), "titles"
-    titles = map(DataGenerator.convertItem, raw_data)
-    map(loadTitle, titles)
+    titles = map(DataGenerator.convert_item, raw_data)
+    map(load_title, titles)
     print "Done loading", len(titles), "titles"
 
