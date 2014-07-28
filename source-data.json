@@ -11,7 +11,8 @@
 		"prop_2_second_name",
 		"tenure",
 		"class_of_title",
-		"price_paid"
+		"price_paid",
+    "extent"
 	],
 	"data":[
 		[
@@ -26,7 +27,8 @@
 			"Myers",
 			"freehold",
 			"good",
-			"208648"
+			"208648",
+      {   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG::27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"SD2215752",
