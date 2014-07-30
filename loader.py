@@ -23,12 +23,14 @@ if __name__ == '__main__':
         quantity = sys.argv[1]
 
     raw_data = DataGenerator.load_json()
+
     if quantity.isdigit():
         n = int(quantity)
         if n <= len(raw_data):
             raw_data = raw_data[:n]
 
     print "Loading", len(raw_data), "titles"
+    
     titles = map(DataGenerator.convert_item, raw_data)
     map(load_title, titles)
     print "Done loading", len(titles), "titles"

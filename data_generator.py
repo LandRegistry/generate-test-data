@@ -40,7 +40,8 @@ class DataGenerator(object):
                 'payment': {
                     'price_paid': raw_data_item[11],
                     'titles': ['TEST_' + raw_data_item[0]]
-                }
+                },
+                'extent': raw_data_item[12]
             }
         except:
             print raw_data_item

@@ -11,7 +11,8 @@
 		"prop_2_second_name",
 		"tenure",
 		"class_of_title",
-		"price_paid"
+		"price_paid",
+    	"extent"
 	],
 	"data":[
 		[
@@ -26,7 +27,8 @@
 			"Myers",
 			"freehold",
 			"good",
-			"208648"
+			"208648",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"SD2215752",
@@ -40,7 +42,8 @@
 			"Walker",
 			"leasehold",
 			"good",
-			"728068"
+			"728068",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"UU2136790",
@@ -54,7 +57,8 @@
 			"Rivers",
 			"freehold",
 			"qualified",
-			"622856"
+			"622856",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"BU9631429",
@@ -68,7 +72,8 @@
 			"Marquez",
 			"freehold",
 			"good",
-			"270298"
+			"270298",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"WY8940669",
@@ -82,7 +87,8 @@
 			"Wise",
 			"freehold",
 			"absolute",
-			"690635"
+			"690635",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"PP6714834",
@@ -96,7 +102,8 @@
 			"Huff",
 			"leasehold",
 			"qualified",
-			"629003"
+			"629003",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"BK2222873",
@@ -110,7 +117,8 @@
 			"Harmon",
 			"leasehold",
 			"good",
-			"713955"
+			"713955",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"HA8166333",
@@ -124,7 +132,8 @@
 			"Mccall",
 			"leasehold",
 			"possesory",
-			"595287"
+			"595287",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"ZZ4826146",
@@ -138,7 +147,8 @@
 			"Woodward",
 			"leasehold",
 			"good",
-			"373711"
+			"373711",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"QL0023637",
@@ -152,7 +162,8 @@
 			"Meyers",
 			"freehold",
 			"qualified",
-			"727052"
+			"727052",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"XB2830480",
@@ -166,7 +177,8 @@
 			"Peterson",
 			"leasehold",
 			"qualified",
-			"424345"
+			"424345",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"ZG3299145",
@@ -180,7 +192,8 @@
 			"James",
 			"freehold",
 			"good",
-			"784999"
+			"784999",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"OC4142761",
@@ -194,7 +207,8 @@
 			"Everett",
 			"leasehold",
 			"qualified",
-			"659418"
+			"659418",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"SE3937388",
@@ -208,7 +222,8 @@
 			"Downs",
 			"leasehold",
 			"qualified",
-			"848154"
+			"848154",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"SN2566975",
@@ -222,7 +237,8 @@
 			"Strickland",
 			"freehold",
 			"qualified",
-			"426736"
+			"426736",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"KG6983023",
@@ -236,7 +252,8 @@
 			"Osborne",
 			"leasehold",
 			"possesory",
-			"688273"
+			"688273",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"ER0209367",
@@ -250,7 +267,8 @@
 			"Wooten",
 			"freehold",
 			"possesory",
-			"532934"
+			"532934",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"UJ9235143",
@@ -264,7 +282,8 @@
 			"Cline",
 			"freehold",
 			"absolute",
-			"182253"
+			"182253",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"JF2943456",
@@ -278,7 +297,8 @@
 			"Crosby",
 			"freehold",
 			"good",
-			"578193"
+			"578193",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"EF7348157",
@@ -292,7 +312,8 @@
 			"Estrada",
 			"freehold",
 			"qualified",
-			"693100"
+			"693100",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"VR5886081",
@@ -306,7 +327,8 @@
 			"Burke",
 			"leasehold",
 			"absolute",
-			"365242"
+			"365242",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"IZ8754759",
@@ -320,7 +342,8 @@
 			"Hamilton",
 			"freehold",
 			"qualified",
-			"363383"
+			"363383",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"DQ4315541",
@@ -334,7 +357,8 @@
 			"Valenzuela",
 			"leasehold",
 			"good",
-			"290481"
+			"290481",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"JZ8511879",
@@ -348,7 +372,8 @@
 			"Britt",
 			"freehold",
 			"possesory",
-			"519097"
+			"519097",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"MC8317047",
@@ -362,7 +387,8 @@
 			"Flowers",
 			"freehold",
 			"absolute",
-			"770088"
+			"770088",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"MC1201671",
@@ -376,7 +402,8 @@
 			"Hutchinson",
 			"freehold",
 			"possesory",
-			"581347"
+			"581347",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"JE9818416",
@@ -390,7 +417,8 @@
 			"Barton",
 			"freehold",
 			"qualified",
-			"672285"
+			"672285",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"UL6365178",
@@ -404,7 +432,8 @@
 			"Pena",
 			"leasehold",
 			"possesory",
-			"242979"
+			"242979",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"CA0037943",
@@ -418,7 +447,8 @@
 			"Rodriquez",
 			"leasehold",
 			"qualified",
-			"220949"
+			"220949",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"AX3503232",
@@ -432,7 +462,8 @@
 			"Santos",
 			"freehold",
 			"absolute",
-			"372044"
+			"372044",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"IT0445448",
@@ -446,7 +477,8 @@
 			"Small",
 			"leasehold",
 			"qualified",
-			"837330"
+			"837330",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"XZ9890989",
@@ -460,7 +492,8 @@
 			"Smith",
 			"leasehold",
 			"good",
-			"444756"
+			"444756",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"TM2248518",
@@ -474,7 +507,8 @@
 			"Mcbride",
 			"freehold",
 			"absolute",
-			"521608"
+			"521608",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"MQ0910988",
@@ -488,7 +522,8 @@
 			"Prince",
 			"freehold",
 			"possesory",
-			"700706"
+			"700706",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"LG8835173",
@@ -502,7 +537,8 @@
 			"Carney",
 			"freehold",
 			"qualified",
-			"650075"
+			"650075",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"IK5884735",
@@ -516,7 +552,8 @@
 			"Kelly",
 			"leasehold",
 			"good",
-			"512071"
+			"512071",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"HV4253236",
@@ -530,7 +567,8 @@
 			"Douglas",
 			"leasehold",
 			"good",
-			"368063"
+			"368063",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"OI6218115",
@@ -544,7 +582,8 @@
 			"Hooper",
 			"freehold",
 			"qualified",
-			"607542"
+			"607542",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"WZ4103196",
@@ -558,7 +597,8 @@
 			"Morales",
 			"freehold",
 			"good",
-			"563268"
+			"563268",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"JX1594681",
@@ -572,7 +612,8 @@
 			"Vasquez",
 			"freehold",
 			"absolute",
-			"573798"
+			"573798",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"FP1991724",
@@ -586,7 +627,8 @@
 			"Dickerson",
 			"leasehold",
 			"possesory",
-			"730038"
+			"730038",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"VS9119867",
@@ -600,7 +642,8 @@
 			"Gamble",
 			"freehold",
 			"qualified",
-			"689967"
+			"689967",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"GD5275637",
@@ -614,7 +657,8 @@
 			"Cantu",
 			"leasehold",
 			"absolute",
-			"468266"
+			"468266",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"AM7032978",
@@ -628,7 +672,8 @@
 			"Cochran",
 			"leasehold",
 			"possesory",
-			"667552"
+			"667552",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"SJ2098227",
@@ -642,7 +687,8 @@
 			"Keith",
 			"freehold",
 			"qualified",
-			"519294"
+			"519294",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"TJ7462553",
@@ -656,7 +702,8 @@
 			"Hardy",
 			"leasehold",
 			"good",
-			"657664"
+			"657664",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"KL1927793",
@@ -670,7 +717,8 @@
 			"Pearson",
 			"leasehold",
 			"good",
-			"344667"
+			"344667",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"BM6433542",
@@ -684,7 +732,8 @@
 			"Carney",
 			"freehold",
 			"absolute",
-			"544221"
+			"544221",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"HH3024552",
@@ -698,7 +747,8 @@
 			"Bell",
 			"leasehold",
 			"possesory",
-			"510831"
+			"510831",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"QT6710963",
@@ -712,7 +762,8 @@
 			"Frederick",
 			"leasehold",
 			"qualified",
-			"209883"
+			"209883",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"NG9970037",
@@ -726,7 +777,8 @@
 			"Cervantes",
 			"freehold",
 			"qualified",
-			"239220"
+			"239220",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"JL3398576",
@@ -740,7 +792,8 @@
 			"Cunningham",
 			"leasehold",
 			"good",
-			"847897"
+			"847897",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"VG7284119",
@@ -754,7 +807,8 @@
 			"Hester",
 			"freehold",
 			"good",
-			"595723"
+			"595723",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"SS7282878",
@@ -768,7 +822,8 @@
 			"Harding",
 			"freehold",
 			"possesory",
-			"291564"
+			"291564",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"ZV0938083",
@@ -782,7 +837,8 @@
 			"Merrill",
 			"freehold",
 			"good",
-			"461012"
+			"461012",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"ED3488310",
@@ -796,7 +852,8 @@
 			"Palmer",
 			"leasehold",
 			"good",
-			"307890"
+			"307890",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"GP8932470",
@@ -810,7 +867,8 @@
 			"Benjamin",
 			"leasehold",
 			"possesory",
-			"698512"
+			"698512",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"TB7683578",
@@ -824,7 +882,8 @@
 			"Hudson",
 			"leasehold",
 			"possesory",
-			"684162"
+			"684162",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"FT2331010",
@@ -838,7 +897,8 @@
 			"Singleton",
 			"leasehold",
 			"possesory",
-			"680154"
+			"680154",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"JB9309018",
@@ -852,7 +912,8 @@
 			"Roy",
 			"freehold",
 			"qualified",
-			"419776"
+			"419776",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"TW0346153",
@@ -866,7 +927,8 @@
 			"Harrington",
 			"leasehold",
 			"good",
-			"391352"
+			"391352",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"ZM0733850",
@@ -880,7 +942,8 @@
 			"Cruz",
 			"leasehold",
 			"possesory",
-			"548291"
+			"548291",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"FO2558495",
@@ -894,7 +957,8 @@
 			"Pennington",
 			"leasehold",
 			"possesory",
-			"459780"
+			"459780",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"NI9676905",
@@ -908,7 +972,8 @@
 			"Terrell",
 			"leasehold",
 			"good",
-			"352071"
+			"352071",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"SL8549795",
@@ -922,7 +987,8 @@
 			"Huff",
 			"leasehold",
 			"qualified",
-			"599553"
+			"599553",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"MS1542117",
@@ -936,7 +1002,8 @@
 			"Pope",
 			"freehold",
 			"good",
-			"216682"
+			"216682",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"MQ3571496",
@@ -950,7 +1017,8 @@
 			"Mccall",
 			"leasehold",
 			"qualified",
-			"571102"
+			"571102",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"CU0804037",
@@ -964,7 +1032,8 @@
 			"Clemons",
 			"leasehold",
 			"possesory",
-			"166472"
+			"166472",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"IS2219133",
@@ -978,7 +1047,8 @@
 			"Walls",
 			"freehold",
 			"possesory",
-			"154937"
+			"154937",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"AU4098014",
@@ -992,7 +1062,8 @@
 			"Leonard",
 			"freehold",
 			"possesory",
-			"509833"
+			"509833",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"SI7849232",
@@ -1006,7 +1077,8 @@
 			"Sampson",
 			"leasehold",
 			"qualified",
-			"229111"
+			"229111",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"SY7814787",
@@ -1020,7 +1092,8 @@
 			"Wall",
 			"leasehold",
 			"possesory",
-			"785623"
+			"785623",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"KJ3690625",
@@ -1034,7 +1107,8 @@
 			"King",
 			"freehold",
 			"good",
-			"551458"
+			"551458",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"YL1310812",
@@ -1048,7 +1122,8 @@
 			"Gamble",
 			"freehold",
 			"absolute",
-			"376830"
+			"376830",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"AG0049114",
@@ -1062,7 +1137,8 @@
 			"Dawson",
 			"freehold",
 			"good",
-			"423193"
+			"423193",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"SK4616560",
@@ -1076,7 +1152,8 @@
 			"Combs",
 			"freehold",
 			"possesory",
-			"612181"
+			"612181",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"JQ1849922",
@@ -1090,7 +1167,8 @@
 			"Rhodes",
 			"leasehold",
 			"good",
-			"493310"
+			"493310",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"MG5237231",
@@ -1104,7 +1182,8 @@
 			"Kaufman",
 			"freehold",
 			"qualified",
-			"258387"
+			"258387",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"SD8741344",
@@ -1118,7 +1197,8 @@
 			"Castillo",
 			"leasehold",
 			"absolute",
-			"584272"
+			"584272",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"VM3403276",
@@ -1132,7 +1212,8 @@
 			"Rhodes",
 			"leasehold",
 			"good",
-			"815633"
+			"815633",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"RX4932614",
@@ -1146,7 +1227,8 @@
 			"Barlow",
 			"freehold",
 			"qualified",
-			"618583"
+			"618583",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"PP1075363",
@@ -1160,7 +1242,8 @@
 			"Williams",
 			"freehold",
 			"good",
-			"784660"
+			"784660",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"QY1227239",
@@ -1174,7 +1257,8 @@
 			"Mclaughlin",
 			"freehold",
 			"qualified",
-			"221065"
+			"221065",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"ET1041386",
@@ -1188,7 +1272,8 @@
 			"Garrison",
 			"leasehold",
 			"possesory",
-			"647868"
+			"647868",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"DZ6743109",
@@ -1202,7 +1287,8 @@
 			"Owen",
 			"freehold",
 			"absolute",
-			"524307"
+			"524307",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"GB2167416",
@@ -1216,7 +1302,8 @@
 			"Burt",
 			"freehold",
 			"qualified",
-			"796785"
+			"796785",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"RF7235500",
@@ -1230,7 +1317,8 @@
 			"Calderon",
 			"freehold",
 			"good",
-			"390456"
+			"390456",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"WI3999037",
@@ -1244,7 +1332,8 @@
 			"Montoya",
 			"freehold",
 			"good",
-			"266558"
+			"266558",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"AO1938284",
@@ -1258,7 +1347,8 @@
 			"Battle",
 			"freehold",
 			"possesory",
-			"336788"
+			"336788",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"CZ6994609",
@@ -1272,7 +1362,8 @@
 			"Macias",
 			"freehold",
 			"good",
-			"633104"
+			"633104",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"ZV5533759",
@@ -1286,7 +1377,8 @@
 			"Aguilar",
 			"freehold",
 			"possesory",
-			"477765"
+			"477765",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"KO3055196",
@@ -1300,7 +1392,8 @@
 			"Mcintosh",
 			"freehold",
 			"possesory",
-			"723530"
+			"723530",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"GM7075303",
@@ -1314,7 +1407,8 @@
 			"Skinner",
 			"freehold",
 			"good",
-			"393086"
+			"393086",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"QD7713782",
@@ -1328,7 +1422,8 @@
 			"Harper",
 			"leasehold",
 			"absolute",
-			"837693"
+			"837693",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"PV2757503",
@@ -1342,7 +1437,8 @@
 			"Cobb",
 			"leasehold",
 			"possesory",
-			"599598"
+			"599598",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"LS5591250",
@@ -1356,7 +1452,8 @@
 			"Paul",
 			"leasehold",
 			"qualified",
-			"240553"
+			"240553",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"TV3692523",
@@ -1370,7 +1467,8 @@
 			"Stephenson",
 			"freehold",
 			"qualified",
-			"318025"
+			"318025",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"MT6806364",
@@ -1384,7 +1482,8 @@
 			"Gomez",
 			"freehold",
 			"absolute",
-			"388956"
+			"388956",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"DK0864642",
@@ -1398,7 +1497,8 @@
 			"Harrington",
 			"freehold",
 			"possesory",
-			"442785"
+			"442785",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		],
 		[
 			"LQ3482241",
@@ -1412,7 +1512,8 @@
 			"Best",
 			"leasehold",
 			"absolute",
-			"840182"
+			"840182",
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "Polygon",     "coordinates": [       [ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]   },   "properties" : {      } }
 		]
 	]
 }
