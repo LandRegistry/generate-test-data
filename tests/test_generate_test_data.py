@@ -1,7 +1,6 @@
 import unittest
 from data_generator import DataGenerator
 
-
 class GenerateTestDataTestCase(unittest.TestCase):
     def setUp(self):
         self.data = DataGenerator.load_json()
@@ -10,6 +9,7 @@ class GenerateTestDataTestCase(unittest.TestCase):
         self.assertFalse(self.data is None)
 
     def test_can_convert_single_item(self):
+        
         raw_data_item = [
             "SM7333269",
             "376-8006",
@@ -22,7 +22,21 @@ class GenerateTestDataTestCase(unittest.TestCase):
             "Myers",
             "freehold",
             "good",
-            "208648"
+            "208648",
+            {
+                "type": "Feature",   
+                "crs": {
+                        "type": "name",     
+                        "properties": {
+                                        "name": "urn:ogc:def:crs:EPSG:27700"
+                                       }
+                        },
+                        "geometry": {
+                                        "type": "Polygon",
+                                        "coordinates": [[ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]
+                                    },
+                        "properties" : {}
+                    }
         ]
 
         title = DataGenerator.convert_item(raw_data_item)
@@ -57,7 +71,21 @@ class GenerateTestDataTestCase(unittest.TestCase):
             'payment': {
                 'price_paid': raw_data_item[11],
                 'titles': ['TEST_' + raw_data_item[0]]
-            }
+            },
+            'extent': {
+                "type": "Feature",   
+                "crs": {
+                        "type": "name",     
+                        "properties": {
+                                        "name": "urn:ogc:def:crs:EPSG:27700"
+                                       }
+                        },
+                        "geometry": {
+                                        "type": "Polygon",
+                                        "coordinates": [[ [530857.01, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]       ]
+                                    },
+                        "properties" : {}
+                    }
         }
 
         self.assertEqual(expected_title, title)
