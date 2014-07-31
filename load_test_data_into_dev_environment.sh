@@ -5,7 +5,7 @@ if [[ -f ./dev/run-command ]]; then
 	./dev/run-command python loader.py $@
 else
 	echo "Running with new dev environment"
-	source /vagrant/script/checkout
+	source /vagrant/script/dev-env-functions
 	create_virtual_env "generate-test-data"
 	python loader.py $@
 	deactivate
