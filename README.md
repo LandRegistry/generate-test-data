@@ -69,24 +69,24 @@ The current data schema for a title is as follows, with an example title:
             
             'extent': {
             	'type': "Feature",
-		'crs': {  
-			"type":"name",
-			"properties":{  
-			"name":"urn:ogc:def:crs:EPSG:27700"
+				'crs': {  
+					'type':"name",
+					'properties':{  
+						'name':"urn:ogc:def:crs:EPSG:27700"
+					}
+				},
+				'geometry':{  
+					'type':"Polygon",
+					'coordinates':[  
+						[[530857.01,181500.00],
+						[530857.00,181500.00],
+						[530857.00,181500.00],
+						[530857.00,181500.00],
+						[530857.01,181500.00]]
+					]
+				},
+				'properties':{
+				}
 			}
-		},
-		"geometry":{  
-		"type":"Polygon",
-			"coordinates":[  
-			[[530857.01,181500.00],
-			[530857.00,181500.00],
-			[530857.00,181500.00],
-			[530857.00,181500.00],
-			[530857.01,181500.00]]
-			]
-		},
-		"properties":{
-		}
-		}
 	}
 </pre>
