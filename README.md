@@ -65,6 +65,7 @@ The current data schema for a title is as follows, with an example title:
             'payment': {
                 'price_paid': "12345",
                 'titles': ["TEST_AB1234567"]
-            }
+            },
+            'extent': {"type": "Feature", "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:EPSG:27700"}}, 			"geometry": {"type": "Polygon", "coordinates": [[[530857.01, 181500.00], [530857.00, 181500.00], 			[530857.00, 181500.00], [530857.00, 181500.00], [530857.01, 181500.00] ]]}, "properties" : {      } }
         }
 </pre>
