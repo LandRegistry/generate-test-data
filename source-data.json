@@ -28,30 +28,7 @@
 			"freehold",
 			"good",
 			"208648",
-      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "MultiPolygon",             "coordinates": [
-          [  [
-                [
-                    530647,
-                    181419
-                ],
-                [
-                    530855,
-                    181500
-                ],
-                [
-                    530917,
-                    181351
-                ],
-                [
-                    530713,
-                    181266
-                ],
-                [
-                    530647,
-                    181419
-                ]
-            ]
-        ]]   },   "properties" : {      } }
+      		{   "type": "Feature",   "crs": {     "type": "name",     "properties": {       "name": "urn:ogc:def:crs:EPSG:27700"     }   },   "geometry": {      "type": "MultiPolygon",             "coordinates": [[  [[530647,181419],[530855,181500],[530917,181351],[530713,181266],[530647,181419]]]]   },   "properties" : {      } }
 		],
 		[
 			"SD2215752",
