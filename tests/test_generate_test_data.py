@@ -47,12 +47,10 @@ class GenerateTestDataTestCase(unittest.TestCase):
 
             'proprietors': [
                 {
-                    'first_name': raw_data_item[5],
-                    'last_name': raw_data_item[6]
+                    'full_name': raw_data_item[5] + ' ' + raw_data_item[6]
                 },
                 {
-                    'first_name': raw_data_item[7],
-                    'last_name': raw_data_item[8]
+                    'full_name': raw_data_item[7] + ' ' + raw_data_item[8]
                 }
             ],
 
@@ -150,8 +148,7 @@ class GenerateTestDataTestCase(unittest.TestCase):
         map(self._check_proprietor_structure, proprietors)
 
     def _check_proprietor_structure(self, proprietor):
-        self.assertTrue(proprietor.get('first_name') is not None)
-        self.assertTrue(proprietor.get('last_name') is not None)
+        self.assertTrue(proprietor.get('full_name') is not None)
 
 
 
