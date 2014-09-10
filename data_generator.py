@@ -16,12 +16,10 @@ class DataGenerator(object):
 
                 'proprietors': [
                     {
-                        'first_name': raw_data_item[5],
-                        'last_name': raw_data_item[6]
+                        'full_name': raw_data_item[5] + ' ' + raw_data_item[6]
                     },
                     {
-                        'first_name': raw_data_item[7],
-                        'last_name': raw_data_item[8]
+                        'full_name': raw_data_item[7] + ' ' + raw_data_item[8]
                     }
                 ],
 
