@@ -61,11 +61,15 @@
                                         "deeds" : [],
                                         "notes" : []
                                       },
-            "price_paid" : {
-                              "text" : "The price stated to have been paid on *DA* was *AM*.",
-                              "fields" : {"date" : "15/11/2005", "amount" : "£100,000"},
+            "restrictions" : [{
+                              "text" : "RESTRICTION: No disposition by the proprietor of the registered estate or in exercise of the power of sale or leasing in any registered charge (except an exempt disposal as defined by section 81(8) of the Housing Act 1988) is to be registered without the consent of -
+                              (a) in relation to a disposal of land in England by a private registered provider of social housing, the Regulator of Social Housing,
+                              (b) in relation to any other disposal of land in England, the Secretary of State, and
+                              (c) in relation to a disposal of land in Wales, the Welsh Ministers,
+                              to that disposition under *M<>M*.",
+                              "fields" : {"miscellaneous" : "section 133 of that Act"},
                               "deeds" : [],
                               "notes" : []
-                            }
+                            }]
 
     }

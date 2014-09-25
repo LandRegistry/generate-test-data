@@ -6,7 +6,7 @@
                 {
                     "first_name": "Michael",
                     "last_name": "Jones"
-                },
+                }
             ],
 
             "property" : {
@@ -61,13 +61,11 @@
                                         "deeds" : [],
                                         "notes" : []
                                       },
-            "restrictive-covenants" : [{
-                              "text" : "By an Order of the Upper Tribunal (Lands Chamber) dated *DA* made pursuant to Section 84 of the Law of Property Act 1925 the restrictive covenants contained in the *DT**DE* dated *DD* referred to above were released.
-
-                                        *N<¬NOTE: Copy Order filed>N*.",
-                              "fields" : {"date" : "14/06/2013", "extent" : ""},
-                              "deeds" : [{"type" : "Conveyance", "date" : "01.06.1996", "parties" : [{"title" : "Mr", "first_name" : "Michael", "surname" : "Jones", "decoration" : ""},{"title" : "Mr", "first_name" : "Jeff", "surname" : "Smith", "decoration" : ""}]}],
-                              "notes" : [{"text" : "Copy Order filed", "font" : "I"}]
-                            }]
+            "restrictive_covenants" : [{
+                                        "text" : "By an Order of the Upper Tribunal (Lands Chamber) dated *DA* made pursuant to Section 84 of the Law of Property Act 1925 the restrictive covenants contained in the *DT**DE* dated *DD* referred to above were released. *N<¬NOTE: Copy Order filed>N*.",
+                                        "fields" : {"date" : "14/06/2013", "extent" : ""},
+                                        "deeds" : [{"type" : "Conveyance", "date" : "01.06.1996", "parties" : [{"title" : "Mr", "first_name" : "Michael", "surname" : "Jones", "decoration" : ""},{"title" : "Mr", "first_name" : "Jeff", "surname" : "Smith", "decoration" : ""}]}],
+                                        "notes" : [{"text" : "Copy Order filed", "documents_referred" : "I"}]
+                                      }]
 
     }
