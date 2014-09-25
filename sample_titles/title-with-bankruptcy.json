@@ -1,0 +1,72 @@
+
+    {
+            "title_number": "TEST_AB1234567",
+
+            "proprietors": [
+                {
+                    "first_name": "Michael",
+                    "last_name": "Jones"
+                },
+            ],
+
+            "property" : {
+                "address": {
+                    "house_number": "8",
+                    "road": "Miller Way",
+                    "town": "Plymouth",
+                    "postcode": "PL6 8UQ"
+                },
+
+                "tenure": "freehold",
+                "class_of_title": "absolute"
+            },
+
+
+            "payment": {
+                "price_paid": "12345",
+                "titles": ["TEST_AB1234567"]
+            },
+
+            "extent": {
+                "type": "Feature",
+                "crs": {
+                    "type":"name",
+                    "properties":{
+                        "name":"urn:ogc:def:crs:EPSG:27700"
+                    }
+                },
+                "geometry":{
+                    "type":"Polygon",
+                    "coordinates":[
+                        [[530857.01,181500.00],
+                        [530857.00,181500.00],
+                        [530857.00,181500.00],
+                        [530857.00,181500.00],
+                        [530857.01,181500.00]]
+                    ]
+                },
+                "properties":{
+                }
+            },
+
+            "proprietorship" :   {
+                                    "text" : "PROPRIETOR(S): *RP*",
+                                    "fields" : {"proprietors":[{"name" : {"title" : "Mr", "first_name" : "Michael", "surname" : "Jones", "decoration" : ""}, "address" : {"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : ""}}]},
+                                    "deeds" : [],
+                                    "notes" : []
+                                 },
+            "property_description" : {
+                                        "text" : "The Freehold land shown edged with red on the plan of the above Title filed at the Registry and being *AD*",
+                                        "fields" : {"address" : {"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : ""}},
+                                        "deeds" : [],
+                                        "notes" : []
+                                      },
+            "price_paid" : {},
+            "bankruptcy" : [{
+                              "text" : "BANKRUPTCY NOTICE entered under section 86(2) of the Land Registration Act 2002 in respect of a pending action, as the title of the proprietor of the registered estate appears to be affected by a petition in bankruptcy against *NM* presented in the *M<>M* Court (Court Reference Number *M<>M*) (Land Charges Reference Number PA*M<>M*).",
+                              "fields" : {"name" : "James Lock", "miscellaneous" : "Gloucester County", "miscellaneous" : "124578", "miscellaneous" : "102"},
+                              "deeds" : [],
+                              "notes" : []
+                            }]
+
+    }
