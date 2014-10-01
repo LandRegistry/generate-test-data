@@ -50,14 +50,16 @@
             },
 
             "proprietorship" :   {
-                                    "text" : "PROPRIETOR(S): *RP*",
-                                    "fields" : {"proprietors":[{"name" : {"title" : "Mr", "first_name" : "Michael", "surname" : "Jones", "decoration" : ""}, "address" : {"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : ""}}]},
+                                    "template" : "PROPRIETOR(S):  *RP*",
+                                    "full_text": "PROPRIETOR(S): Michael Jones of 8 Miller Way, Plymouth, Devon, PL6 8UQ",
+                                    "fields" : {"proprietors":[{"name" : {"title" : "Mr", "full_name" : "Michael Jones", "decoration" : ""}, "address" : {"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : "", "postcode":""}}]},
                                     "deeds" : [],
                                     "notes" : []
                                  },
             "property_description" : {
-                                        "text" : "The Freehold land shown edged with red on the plan of the above Title filed at the Registry and being *AD*",
-                                        "fields" : {"address" : {"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : ""}},
+                                        "template" : "The Freehold land shown edged with red on the plan of the above Title filed at the Registry and being *AD*",
+                                        "text" : "The Freehold land shown edged with red on the plan of the above Title filed at the Registry and being 8 Miller Way, Plymouth, Devon, PL6 8UQ",
+                                        "fields" : {"class_of_title": "freehold", "address" : {"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : "", "postcode":""}},
                                         "deeds" : [],
                                         "notes" : []
                                       },
@@ -86,7 +88,8 @@
                               "notes" : []
                             }],
             "price_paid" : {
-                              "text" : "The price stated to have been paid on *DA* was *AM*.",
+                              "template" : "The price stated to have been paid on *DA* was *AM*.",
+                              "full_text" : "The price stated to have been paid on 15/11/2005 was £100,000.",
                               "fields" : {"date" : "15/11/2005", "amount" : "£100,000"},
                               "deeds" : [],
                               "notes" : []
