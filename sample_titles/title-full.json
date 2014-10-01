@@ -4,7 +4,8 @@
 
             "proprietors": [
                 {
-                    "full_name": "Michael Jones"
+                    "first_name": "Michael",
+                    "last_name": "Jones"
                 }
             ],
 
@@ -59,7 +60,7 @@
             "property_description" : {
                                         "template" : "The Freehold land shown edged with red on the plan of the above Title filed at the Registry and being *AD*",
                                         "text" : "The Freehold land shown edged with red on the plan of the above Title filed at the Registry and being 8 Miller Way, Plymouth, Devon, PL6 8UQ",
-                                        "fields" : {"class_of_title": "freehold", "address" : {"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : "", "postcode":""}},
+                                        "fields" : {"tenure": "freehold", "address" : {"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : "", "postcode":""}},
                                         "deeds" : [],
                                         "notes" : []
                                       },
