@@ -111,6 +111,14 @@
                               "fields" : {"date" : "15/11/2005", "amount" : "£100,000"},
                               "deeds" : [],
                               "notes" : []
+                            },
+            "schedules" : { "H": {
+                                    "template" : "Short particulars of the lease(s) (or under-lease(s)) under which the land is held: Date: *DD* Term: *TM* *OR*<RENT:>*OR* Parties *DP* *NN* ",
+                                    "full_text" : "Short particulars of the lease(s) (or under-lease(s)) under which the land is held: Date: 22nd September 1998 Term: 999 years Parties: Mr Michael Jones and Mr Jeff Smith. Note: The lease also comprises other land.",
+                                    "fields" : {},
+                                    "deeds" : [{"type" : "Transfer", "date" : "01.06.1996", "term" : "999 years", "parties" : [{"title" : "Mr", "full_name" : "Michael Jones", "decoration" : ""},{"title" : "Mr", "full_name" : "Jeff Smith", "decoration" : ""}]}],
+                                    "notes" : [{"text" : "The lease also comprises other land", "documents_referred" : ""}]
+                                  }
                             }
 
     }

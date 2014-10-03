@@ -62,10 +62,11 @@
                                         "notes" : []
                                       },
             "easements" : [{
-                              "text" : "The land *E<>E* is subject to the rights granted by a *DT**DE* dated *DD* made between *DP*. The said Deed also contains restrictive covenants by the grantor. *N<^NOTE: Copy in Certificate. Copy filed>N*.",
-                              "fields" : {"extent" : "tinted pink", "extent" : ""},
-                              "deeds" : [{"type" : "Deed", "date" : "03.03.1976", "parties" : [{"title" : "Mr", "first_name" : "Michael", "surname" : "Jones", "decoration" : ""},{"title" : "Mr", "first_name" : "Jeff", "surname" : "Smith", "decoration" : ""}]}],
-                              "notes" : [{"text" : "Copy filed", "font" : "I"}]
+                              "template" : "The land *E<>E* is subject to the rights granted by a *DT**DE* dated *DD* made between *DP*. The said Deed also contains restrictive covenants by the grantor. *N<^NOTE: Copy in Certificate. Copy filed>N*.",
+                              "full_text" : "The land tinted pink is subject to the rights granted by a Deed dated 03.03.1976 made between Mr Michael Jones and Mr Jeff Smith. The said Deed also contains restrictive covenants by the grantor. NOTE: Copy filed.",
+                              "fields" : {"extent" : ["tinted pink", ""]},
+                              "deeds" : [{"type" : "Deed", "date" : "03.03.1976", "parties" : [{"title" : "Mr", "full_name" : "Michael Jones", "decoration" : ""},{"title" : "Mr", "full_name" : "Jeff Smith", "decoration" : ""}]}],
+                              "notes" : [{"text" : "Copy filed", "documents_referred" : "I"}]
                             }]
 
     }

@@ -62,7 +62,8 @@
                                         "notes" : []
                                       },
             "price_paid" : {
-                              "text" : "The price stated to have been paid on *DA* was *AM*.",
+                              "template" : "The price stated to have been paid on *DA* was *AM*.",
+                              "full_text" : "The price stated to have been paid on 15/11/2005 was £100,000.",
                               "fields" : {"date" : "15/11/2005", "amount" : "£100,000"},
                               "deeds" : [],
                               "notes" : []

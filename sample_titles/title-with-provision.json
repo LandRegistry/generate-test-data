@@ -63,9 +63,10 @@
                                       },
             "price_paid" : {},
             "provisions" : [{
-                              "text" : "A *DT**DE* dated *DD* made between *DP* contains the following provision:-*VT*",
-                              "fields" : {"extent" : "of the land in this title", "verbatim_text" : "The land has the benefit of a right of way along the passageway to the rear of the property, and also a right of way on foot only on to the open ground on the north west boundary of the land in this title"},
-                              "deeds" : [{"type" : "Transfer", "date" : "01.06.1996", "parties" : [{"title" : "Mr", "first_name" : "Michael", "surname" : "Jones", "decoration" : ""},{"title" : "Mr", "first_name" : "Jeff", "surname" : "Smith", "decoration" : ""}]}],
+                              "template" : "A *DT**DE* dated *DD* made between *DP* contains the following provision:-*VT*",
+                              "full_text" : "A Transfer of the land in this title dated 01.06.1996 made between Mr Michael Jones and Mr Jeff Smith contains the following provision:-The land has the benefit of a right of way along the passageway to the rear of the property, and also a right of way on foot only on to the open ground on the north west boundary of the land in this title",
+                              "fields" : {"extent" : ["of the land in this title"], "verbatim_text" : "The land has the benefit of a right of way along the passageway to the rear of the property, and also a right of way on foot only on to the open ground on the north west boundary of the land in this title"},
+                              "deeds" : [{"type" : "Transfer", "date" : "01.06.1996", "parties" : [{"title" : "Mr", "full_name" : "Michael Jones", "decoration" : ""},{"title" : "Mr", "full_name" : "Jeff Smith", "decoration" : ""}]}],
                               "notes" : []
                             }]
 

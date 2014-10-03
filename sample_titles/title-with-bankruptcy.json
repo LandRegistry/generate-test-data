@@ -63,10 +63,12 @@
                                       },
             "price_paid" : {},
             "bankruptcy" : [{
-                              "text" : "BANKRUPTCY NOTICE entered under section 86(2) of the Land Registration Act 2002 in respect of a pending action, as the title of the proprietor of the registered estate appears to be affected by a petition in bankruptcy against *NM* presented in the *M<>M* Court (Court Reference Number *M<>M*) (Land Charges Reference Number PA*M<>M*).",
-                              "fields" : {"name" : "James Lock", "miscellaneous" : "Gloucester County", "miscellaneous" : "124578", "miscellaneous" : "102"},
+                              "template" : "BANKRUPTCY NOTICE entered under section 86(2) of the Land Registration Act 2002 in respect of a pending action, as the title of the proprietor of the registered estate appears to be affected by a petition in bankruptcy against *NM* presented in the *M<>M* Court (Court Reference Number *M<>M*) (Land Charges Reference Number PA*M<>M*).",
+                              "full_text" : "BANKRUPTCY NOTICE entered under section 86(2) of the Land Registration Act 2002 in respect of a pending action, as the title of the proprietor of the registered estate appears to be affected by a petition in bankruptcy against James Lock presented in the Gloucester County Court (Court Reference Number 124578) (Land Charges Reference Number PA102).",
+                              "fields" : {"name" : "James Lock", "miscellaneous" : ["Gloucester County",  "124578",  "102"]},
                               "deeds" : [],
                               "notes" : []
                             }]
+
 
     }
