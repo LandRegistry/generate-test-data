@@ -1,6 +1,9 @@
 
     {
             "title_number": "TEST_AB1234567",
+            "tenure":"Absolute",
+            "class_of_title":"Freehold",
+            "editiondate":"10.05.2005",
 
             "proprietors": [
                 {
@@ -50,8 +53,9 @@
             },
 
             "proprietorship" :   {
-                                    "text" : "PROPRIETOR(S): *RP*",
-                                    "fields" : {"proprietors":[{"name" : {"title" : "Mr", "first_name" : "Michael", "surname" : "Jones", "decoration" : ""}, "address" : {"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : ""}}]},
+                                    "template" : "PROPRIETOR(S):  *RP*",
+                                    "full_text": "PROPRIETOR(S): Michael Jones of 8 Miller Way, Plymouth, Devon, PL6 8UQ",
+                                    "fields" : {"proprietors":[{"name" : {"title" : "Mr", "full_name" : "Michael Jones", "decoration" : ""}, "address" : [{"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : "", "postcode":""}]}]},
                                     "deeds" : [],
                                     "notes" : []
                                  },
@@ -66,7 +70,7 @@
             "restrictions" : [{
                               "template" : "RESTRICTION: No disposition by the proprietor of the registered estate or in exercise of the power of sale or leasing in any registered charge (except an exempt disposal as defined by section 81(8) of the Housing Act 1988) is to be registered without the consent of - (a) in relation to a disposal of land in England by a private registered provider of social housing, the Regulator of Social Housing, (b) in relation to any other disposal of land in England, the Secretary of State, and (c) in relation to a disposal of land in Wales, the Welsh Ministers, to that disposition under *M<>M*.",
                               "full_text" : "RESTRICTION: No disposition by the proprietor of the registered estate or in exercise of the power of sale or leasing in any registered charge (except an exempt disposal as defined by section 81(8) of the Housing Act 1988) is to be registered without the consent of - (a) in relation to a disposal of land in England by a private registered provider of social housing, the Regulator of Social Housing, (b) in relation to any other disposal of land in England, the Secretary of State, and (c) in relation to a disposal of land in Wales, the Welsh Ministers, to that disposition under section 133 of that Act.",
-                              "fields" : {"miscellaneous" : "section 133 of that Act"},
+                              "fields" : {"miscellaneous" : ["section 133 of that Act"]},
                               "deeds" : [],
                               "notes" : []
                             }]

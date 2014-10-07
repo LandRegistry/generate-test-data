@@ -1,6 +1,9 @@
 
     {
             "title_number": "TEST_AB1234567",
+            "tenure":"Absolute",
+            "class_of_title":"Freehold",
+            "editiondate":"10.05.2005",
 
             "proprietors": [
                 {
@@ -50,8 +53,9 @@
             },
 
             "proprietorship" :   {
-                                    "text" : "PROPRIETOR(S): *RP*",
-                                    "fields" : {"proprietors":[{"name" : {"title" : "Mr", "first_name" : "Michael", "surname" : "Jones", "decoration" : ""}, "address" : {"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : ""}}]},
+                                    "template" : "PROPRIETOR(S):  *RP*",
+                                    "full_text": "PROPRIETOR(S): Michael Jones of 8 Miller Way, Plymouth, Devon, PL6 8UQ",
+                                    "fields" : {"proprietors":[{"name" : {"title" : "Mr", "full_name" : "Michael Jones", "decoration" : ""}, "address" : [{"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : "", "postcode":""}]}]},
                                     "deeds" : [],
                                     "notes" : []
                                  },

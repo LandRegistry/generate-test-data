@@ -1,6 +1,9 @@
 
     {
             "title_number": "TEST_AB1234567",
+            "tenure":"Absolute",
+            "class_of_title":"Freehold",
+            "editiondate":"10.05.2005",
 
             "proprietors": [
                 {
@@ -50,8 +53,9 @@
             },
 
             "proprietorship" :   {
-                                    "text" : "PROPRIETOR(S): *RP*",
-                                    "fields" : {"proprietors":[{"name" : {"title" : "Mr", "first_name" : "Michael", "surname" : "Jones", "decoration" : ""}, "address" : {"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : ""}}]},
+                                    "template" : "PROPRIETOR(S):  *RP*",
+                                    "full_text": "PROPRIETOR(S): Michael Jones of 8 Miller Way, Plymouth, Devon, PL6 8UQ",
+                                    "fields" : {"proprietors":[{"name" : {"title" : "Mr", "full_name" : "Michael Jones", "decoration" : ""}, "address" : [{"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : "", "postcode":""}]}]},
                                     "deeds" : [],
                                     "notes" : []
                                  },
@@ -65,7 +69,7 @@
 
                               "template" : "By an Order of the Upper Tribunal (Lands Chamber) dated *DA* made pursuant to Section 84 of the Law of Property Act 1925 the restrictive covenants contained in the *DT**DE* dated *DD* referred to above were released. *N<¬NOTE: Copy Order filed>N*.",
                               "full_text" : "By an Order of the Upper Tribunal (Lands Chamber) dated 14/06/2013 made pursuant to Section 84 of the Law of Property Act 1925 the restrictive covenants contained in the Conveyance dated 01.06.1996 referred to above were released. NOTE: Copy Order filed",
-                              "fields" : {"date" : "14/06/2013", "extent" : [""]},
+                              "fields" : {"date" : ["14/06/2013"], "extent" : [""]},
                               "deeds" : [{"type" : "Conveyance", "date" : "01.06.1996", "parties" : [{"title" : "Mr", "full_name" : "Michael Jones", "decoration" : ""},{"title" : "Mr", "full_name" : "Jeff Smith", "decoration" : ""}]}],
                               "notes" : [{"text" : "Copy Order filed", "documents_referred" : "I"}]
                             }]

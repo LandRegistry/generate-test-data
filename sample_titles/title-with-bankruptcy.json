@@ -1,6 +1,9 @@
 
     {
             "title_number": "TEST_AB1234567",
+            "tenure":"Absolute",
+            "class_of_title":"Freehold",
+            "editiondate":"10.05.2005",
 
             "proprietors": [
                 {
@@ -50,8 +53,9 @@
             },
 
             "proprietorship" :   {
-                                    "text" : "PROPRIETOR(S): *RP*",
-                                    "fields" : {"proprietors":[{"name" : {"title" : "Mr", "first_name" : "Michael", "surname" : "Jones", "decoration" : ""}, "address" : {"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : ""}}]},
+                                    "template" : "PROPRIETOR(S):  *RP*",
+                                    "full_text": "PROPRIETOR(S): Michael Jones of 8 Miller Way, Plymouth, Devon, PL6 8UQ",
+                                    "fields" : {"proprietors":[{"name" : {"title" : "Mr", "full_name" : "Michael Jones", "decoration" : ""}, "address" : [{"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : "", "postcode":""}]}]},
                                     "deeds" : [],
                                     "notes" : []
                                  },
@@ -65,7 +69,7 @@
             "bankruptcy" : [{
                               "template" : "BANKRUPTCY NOTICE entered under section 86(2) of the Land Registration Act 2002 in respect of a pending action, as the title of the proprietor of the registered estate appears to be affected by a petition in bankruptcy against *NM* presented in the *M<>M* Court (Court Reference Number *M<>M*) (Land Charges Reference Number PA*M<>M*).",
                               "full_text" : "BANKRUPTCY NOTICE entered under section 86(2) of the Land Registration Act 2002 in respect of a pending action, as the title of the proprietor of the registered estate appears to be affected by a petition in bankruptcy against James Lock presented in the Gloucester County Court (Court Reference Number 124578) (Land Charges Reference Number PA102).",
-                              "fields" : {"name" : "James Lock", "miscellaneous" : ["Gloucester County",  "124578",  "102"]},
+                              "fields" : {"name" : ["James Lock"], "miscellaneous" : ["Gloucester County",  "124578",  "102"]},
                               "deeds" : [],
                               "notes" : []
                             }]
