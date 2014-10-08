@@ -3,7 +3,7 @@
             "title_number": "TEST_AB1234567",
             "class_of_title":"Absolute",
             "tenure":"Leasehold",
-            "edition_date":"10-31-2005 10:30:20",
+            "edition_date":"10-31-2005",
 
             "extent": {
                 "type": "Feature",
