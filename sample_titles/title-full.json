@@ -98,7 +98,8 @@
                                     "fields" : {},
                                     "deeds" : [{"type" : "Transfer", "date" : "01.06.1996", "term" : "999 years", "parties" : [{"title" : "Mr", "full_name" : "Michael Jones", "decoration" : ""},{"title" : "Mr", "full_name" : "Jeff Smith", "decoration" : ""}]}],
                                     "notes" : [{"text" : "The lease also comprises other land", "documents_referred" : ""}]
-                              }
+                              },
+            "other" : []
 
 
     }
