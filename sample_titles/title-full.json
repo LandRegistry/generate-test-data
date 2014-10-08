@@ -1,33 +1,9 @@
 
     {
             "title_number": "TEST_AB1234567",
-            "tenure":"Absolute",
-            "class_of_title":"Freehold",
-            "edition_date":"10.05.2005",
-
-            "proprietors": [
-                {
-                    "full_name": "Michael Jones"
-                }
-            ],
-
-            "property" : {
-                "address": {
-                    "house_number": "8",
-                    "road": "Miller Way",
-                    "town": "Plymouth",
-                    "postcode": "PL6 8UQ"
-                },
-
-                "tenure": "freehold",
-                "class_of_title": "absolute"
-            },
-
-
-            "payment": {
-                "price_paid": "12345",
-                "titles": ["TEST_AB1234567"]
-            },
+            "class_of_title":"Absolute",
+            "tenure":"Leasehold",
+            "edition_date":"10-31-2005 10:30:20",
 
             "extent": {
                 "type": "Feature",
@@ -62,7 +38,7 @@
             "property_description" : {
                                         "template" : "The Freehold land shown edged with red on the plan of the above Title filed at the Registry and being *AD*",
                                         "full_text" : "The Freehold land shown edged with red on the plan of the above Title filed at the Registry and being 8 Miller Way, Plymouth, Devon, PL6 8UQ",
-                                        "fields" : {"address" : {"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : "", "postcode":""}},
+                                        "fields" : {"address" : [{"full_address": "8 Miller Way, Plymouth, Devon, PL6 8UQ", "house_no" : "8", "street_name" : "Miller Way", "town" : "Plymouth", "postal_county" : "Devon", "region_name" : "", "country" : "", "postcode":""}]},
                                         "deeds" : [],
                                         "notes" : []
                                       },
