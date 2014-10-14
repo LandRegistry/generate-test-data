@@ -3,8 +3,8 @@
             "title_number": "TEST_AB1234567",
             "class_of_title":"Absolute",
             "tenure":"Leasehold",
-            "edition_date": "2015-12-01",
-            "last_application": "2015-12-01T12:03:10.000+01:00",
+            "edition_date": "2013-12-01",
+            "last_application": "2013-12-01T12:03:10.000+01:00",
 
             "extent": {
                 "type": "Feature",
